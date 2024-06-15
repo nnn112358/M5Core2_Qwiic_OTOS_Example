@@ -29,4 +29,5 @@ https://www.seeedstudio.com/Grove-Qwiic-Hub-p-4531.html<br>
 -- Wire @ 2.0.0<br>
 <br>
 
+// Copyright (c) 2024 @nnn112358<https://github.com/nnn112358/>
 
