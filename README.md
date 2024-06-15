@@ -1,5 +1,7 @@
 # M5Core2_Qwiic_OTOS_Example
 <br>
+![image](https://github.com/nnn112358/M5Core2_Qwiic_OTOS_Example/assets/27625496/794466c8-c7fb-453f-adef-642be2084457)
+
 <br>
 
 ## Required Hardware
