@@ -10,7 +10,6 @@ QwiicOTOS myOtos;
 void setup(){
   auto cfg = M5.config();
   M5.begin(cfg);
-
   Wire.begin(M5.Ex_I2C.getSDA(), M5.Ex_I2C.getSCL());
 
   Serial.printf("M5Core2_Qwiic_OTOS_Example");
@@ -32,8 +31,7 @@ void setup(){
 void loop(){
   M5.update();
 
-  if (M5.BtnB.wasReleased())
-  {
+  if (M5.BtnB.wasReleased()){
     Serial.printf(" Calibrate the IMU,resetTracking");
     myOtos.calibrateImu();
     myOtos.resetTracking();
@@ -49,12 +47,13 @@ void loop(){
 
   M5.Display.startWrite();
   M5.Display.setCursor(0, 0);
+  
   M5.Display.setTextSize(3);
   M5.Display.printf("x = %+2.2f mm \t\n", pos.x * 25.4);
   M5.Display.printf("y = %+2.2f mm \t\n", pos.y * 25.4);
   M5.Display.printf("th= %+2.2f deg \t\n", pos.h);
-  M5.Display.setTextSize(2);
 
+  M5.Display.setTextSize(2);
   M5.Display.printf("vx= %+2.2f mm/s \t\n", vel.x * 25.4);
   M5.Display.printf("vy= %+2.2f mm/s \t\n", vel.y * 25.4);
   M5.Display.printf("w = %+2.2f deg/s \t\n", vel.h);
