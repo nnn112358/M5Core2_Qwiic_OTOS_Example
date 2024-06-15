@@ -9,6 +9,8 @@ M5Stack Core2( Grove Port.A) <br>
 -> Optical_Tracking_Odometry_Sensor<br>
 
 <br>
+Press B on the M5SCore2 to execute calibration.  
+<br>
 
 ## Required Hardware
 M5Stack Core2<br>
