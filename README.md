@@ -14,12 +14,12 @@ M5Stack Core2( Grove Port.A) <br>
 M5Stack Core2<br>
 https://docs.m5stack.com/ja/core/core2<br>
 
-SparkFun_Optical_Tracking_Odometry_Sensor<br>
+SparkFun Optical Tracking Odometry Sensor - PAA5160E1 (Qwiic)
+https://github.com/sparkfun/SparkFun_Qwiic_OTOS_Arduino_Library<br>
 https://github.com/sparkfun/SparkFun_Optical_Tracking_Odometry_Sensor<br>
 
 Grove - Qwiic Hub - Compatible with Grove/Qwiic/STEMMA QT Modules & Controllers<br>
 https://www.seeedstudio.com/Grove-Qwiic-Hub-p-4531.html<br>
-
 
 
 ## Required Libraries<br>
